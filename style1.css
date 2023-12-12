@@ -1,0 +1,10 @@
+.practice{
+    animation: lines 2s linear infinite normal;
+    cursor: pointer;
+}
+.practice:hover{
+    @keyframes lines{
+    from{text-decoration:none;}
+    to{text-decoration: dashed;}
+}
+}

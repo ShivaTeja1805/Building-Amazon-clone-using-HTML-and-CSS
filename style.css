@@ -163,7 +163,6 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-   
     align-items: center;
 
 }
@@ -190,15 +189,15 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
-    height: 1075px;
+    height: 900px;
+    align-content:space-evenly;
 }
 
 .box{
-    border: 2px solid black;
-    height: 500px;
-    width: 23%;
+    height: 390px;
+    width: 310px;
     background-color: white;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     border: none;
 }
 .boximg{
@@ -208,6 +207,10 @@
     background-size: cover;
 }
 .boxcon{
+    height:90%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
     margin: 1rem;
 }
 .boxcon a{
@@ -245,12 +248,8 @@
 .foot-panel2 ul{
     list-style-type:none;
     line-height: 2rem;
-    animation: lines 2s linear 0 infinite normal;
 }
-@keyframes lines{
-    from{text-decoration: none;}
-    to{text-decoration: dashed;}
-}
+
 .foot-panel2 a{
     text-decoration: none;
     font-size: 0.85rem;
@@ -291,3 +290,382 @@
 .copyright{
     padding-top: 10px;
 }
+
+
+/* -----------------------------------------MEDIAQUERIES---------------------------------------------------------- */
+
+@media (min-width:1024px) and (max-width:1200px){
+    .address1{
+
+        font: size 0.75;
+    }
+    
+    .address2{
+        font-size:0.875rem;
+    }
+    .addicon{
+        height: 13px;
+    }
+    .hello{
+        font-size:0.75rem;
+    }
+    .account{
+        font-size: 0.875rem;
+    }
+    .returns{
+        font-size:0.75rem;
+    }
+    .orders{
+        font-size: 0.875rem;
+    }
+    .nav-cart{
+        font-size: 0.875rem;
+    }
+    .nav-cart i{
+        font-size: 20px;
+    }
+    .box{
+        height: 300px;
+        width: 290px;
+    }
+    .boxcon{
+        height: 90%;
+        width: 90%;
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .shopsec{
+        height:1100px;
+    }
+    .box{
+        height: 300px;
+        width:250px;
+    }
+    .boximg{
+        height: 400px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-size: cover;
+    }
+    .boxcon{
+        height:90%;
+        width: 90%;
+    }
+    .foot-panel2{
+        height: 200px;
+        padding-top: 15px; 
+    }
+    .foot-panel2 p{
+        font-size: 0.625rem;
+        font-weight: 700;
+    }
+    .foot-panel2 ul{
+        line-height:0.75rem;
+    } 
+    .foot-panel2 a{
+        font-size: 0.5rem;
+
+    }
+    .foot-panel4{
+        height:60px;
+        text-align: center;
+    }
+    .foot-panel4 a{
+        font-size: 0.4375rem;
+    }
+    .copyright{
+        font-size: 0.4375rem;
+        padding-top:5px;
+    }
+    .pages{
+        padding-top:5px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px){
+    .address1{
+        font-size: 0.4375rem;
+    }
+    
+    .address2{
+        font-size:0.5rem;
+    }
+    .addicon{
+        height: 13px;
+    }
+    .hello{
+        font-size:0.4375rem;
+    }
+    .account{
+        font-size: 0.5rem;
+    }
+    .returns{
+        font-size:0.4375rem;
+    }
+    .orders{
+        font-size: 0.5rem;
+    }
+    .nav-cart{
+        font-size: 0.5rem;
+    }
+    .nav-cart i{
+        font-size: 10px;
+    }
+    .nav2 p{
+        font-size: 0.4375rem;
+        margin:0px;
+        margin-left: 10px;
+    }
+    .nav2deals{
+        font-size: 0.625rem;
+        margin-left: 50px;
+    }
+    .nav2{
+        font-size: 0.4375rem;
+    }
+    .nav-search{
+        height: 40px;
+        width: 600px;
+        margin: 3px;
+        margin-top: 20px;
+    }
+    .search{
+        width: 100%;
+        font-size: 0.75rem;
+    }
+    .dropdown{
+        width: 50px;
+        font-size: 0.75rem;
+    }
+    .searchicon{
+        width: 45px; 
+        display: flex; 
+        font-size: 0.875rem; 
+    }
+    .herosec{
+        height: 170px;
+        background-size:contain;
+    }
+    .herosecmsg{
+        height: 20px;
+        width: 90%;
+        font-size: 0.4375rem;
+    }
+    .shopsec{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1075px;
+    }
+    
+    .box{
+        height: 200px;
+        width: 190px;
+    }
+    .boximg{
+        height: 400px;
+        background-size: cover;
+    }
+    .boxcon{
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5rem;
+    }
+    .foot-panel1{
+        height: 20px;
+        font-size: 0.375rem;
+    }
+    .foot-panel2{
+        height: 150px;
+        padding-top: 20px; 
+    }
+    .foot-panel2 p{
+        font-size: 0.25rem;
+        font-weight: 700;
+    }
+    .foot-panel2 ul{
+        line-height:0.125rem;
+    } 
+    .foot-panel2 a{
+        font-size: 0.1875rem;
+
+    }
+    .foot-panel4{
+        height: 77px;
+        background-color: #131a22;
+        color: white;
+        text-align: center;
+    }
+    .foot-panel4 a{
+        font-size: 0.3125rem;
+    }
+    .copyright{
+        font-size: 0.3125rem;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .shopsec{
+        display: flex;
+        flex-wrap: wrap;
+        height:500px;
+    }
+    .box{
+        height:150px;
+        width:100px;
+    }
+    .boximg{
+        height: 400px;
+        background-size: cover;
+    }
+    .boxcon{
+        height: 80%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        font-size: 0.3125rem;
+    }
+    .foot-panel1{
+        height: 20px;
+        font-size: 0.375rem;
+    }
+    .foot-panel2{
+        height: 190px;
+        padding-top: 20px; 
+    }
+    .foot-panel2 p{
+        font-size: 0.3125rem;
+        font-weight: 700;
+    }
+    .foot-panel2 ul{
+        line-height:5px;
+    }
+    .foot-panel2 a{
+        font-size: 0.25rem;
+    }
+    .foot-panel4{
+        height: 45px;
+        text-align: center;
+    }
+    .foot-panel4 a{
+        margin-left: 10px;
+        font-size: 0.25rem;
+    }
+    .pages{
+        padding-top: 5px;
+    }
+    .copyright{
+        padding-top: 5px;
+        font-size: 0.25rem;
+    }
+    .herosec{
+        height: 125px;
+        background-size:contain;
+    }
+    .herosecmsg{
+        height: 10px;
+        width: 90%;
+        font-size: 0.25rem;
+    }
+    .nav2 p{
+        font-size: 0.3125rem;
+        margin:0px;
+        margin-left:5px;
+    }
+    .nav2deals{
+        font-size: 0.5rem;
+        margin-left: 80px;
+    }
+    .nav2{
+        font-size: 0.3125rem;
+        height: 20px;
+    }
+    .nav2all{
+        display: flex;
+        width:12px;
+        height: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav2all i{
+        margin-right: 2px;
+        margin-left: 2px;
+        margin-top: 1px;
+    }
+    .address1{
+        font-size: 0.3125rem;
+        margin-left: 10px;
+    }
+    
+    .address2{
+        font-size:0.375rem;
+        padding-top: 0px;
+    }
+    .addicon{
+        font-size: 10px;
+    }
+    .hello{
+        font-size:0.3125rem;
+    }
+    .account{
+        font-size: 0.375rem;
+    }
+    .returns{
+        font-size:0.3125rem;
+    }
+    .orders{
+        font-size: 0.375rem;
+    }
+    .nav-cart{
+        font-size: 0.375rem;
+    }
+    .nav-cart i{
+        font-size: 10px;
+    }
+    .foot-panel3{
+        height: 40px;
+    }
+    .nav-search{
+        height:20px;
+        width: 600px;
+    }
+    .search{
+        height:20px;
+        width: 100%;
+        font-size: 0.375rem;
+    }
+    .dropdown{
+        height:20px;
+        width:35px;
+        font-size: 0.375rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .searchicon{
+        height:20px;
+        width:10px;
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px;  
+        font-size:0.5rem;
+    }
+    .nav-logo{
+        height: 30px;
+        width:50px;
+        margin-top: 10px;
+    }
+    
+    .logo{
+        height: 30px;
+        width:50px;
+        background-size:contain;
+    }
+    
+}
+
+
+
